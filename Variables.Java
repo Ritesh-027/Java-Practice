@@ -4,6 +4,8 @@ import java.util.*;
 class Variables {
 public static void main(String args[]){
  
+//How to take input from user with the help of scanner package.    
+
 int a = 25;
 int b = 10;
 
