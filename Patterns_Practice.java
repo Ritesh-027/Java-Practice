@@ -47,6 +47,7 @@ public static void main(String[] args){
         }
 
             System.out.println("180 Degree Inverted Half Pyramid !");
+            
             int n = 5;
             for(int i=1; i<=n; i++){
                 
@@ -59,7 +60,11 @@ public static void main(String[] args){
                 }
                 System.out.println();
             }
-
+    
+            System.out.println("180 Degree Inverted Half Pyramid !");
+    
+            
+            
     }
 
 }
