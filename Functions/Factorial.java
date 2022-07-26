@@ -5,7 +5,7 @@ public class Factorial{
 
     //function for getting a factorial number from the user input.
 public static void fact(int n){
-    int f = 1;
+    int f = 5;
     
     //loop for inverse multiplaying a number.
     for(int i=n; i>=1; i--){
