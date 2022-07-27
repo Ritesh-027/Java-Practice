@@ -1,24 +1,34 @@
 package Functions;
 
-import java.util.*;
-public class prime2{
-    public static void main(String[] args){
-        Scanner prime = new Scanner(System.in);
-        int n = prime.nextInt();
-        prime(n);
-    }
+import java.util.Scanner;
 
-public static void prime(int n){
+public class prime2 {
 
-    for(int i=2; i<=n; i++){
+    private static Scanner scanner = new Scanner( System.in );
 
-        if(n % i == 0){
-                System.out.println("Given number is not prime: " + n);
-        }else{
-                System.out.println("Given number is prime :" + n);
+    public static void main(String[] args) {
+
+        System.out.println("Enter max number: ");
+
+        String input = scanner.nextLine();
+        int maxNumber = Integer.parseInt( input );
+
+        System.out.println("List of the prime number between 1 - " + maxNumber);
+
+        for (int num = 2; num <= maxNumber; num++)
+        {
+            boolean isPrime = true;
+            for (int i=2; i <= num/2; i++)
+            {
+                if ( num % i == 0)
+                {
+                    isPrime = false;
+                    break;
                 }
+            }
+			
+            if ( isPrime == true )
+                System.out.println(num);
+        }
     }
-}
-
-    
 }
