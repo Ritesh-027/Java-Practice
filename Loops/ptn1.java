@@ -1,3 +1,5 @@
+package Loops;
+
 public class ptn1{
 
     public static void main(String[] args){

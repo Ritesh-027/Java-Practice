@@ -16,9 +16,9 @@ public static void fact(int n){
     }
 
 //Main Function    
-public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
+public static void main(String args[]){
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt();
     fact(n);//Calling factorial function in the main function.
     }
 

@@ -1,3 +1,5 @@
+package Loops;
+
 public class Patterns_Practice{
 public static void main(String[] args){
 

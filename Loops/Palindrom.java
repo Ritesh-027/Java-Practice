@@ -1,3 +1,5 @@
+package Loops;
+
 public class Palindrom{
     public static void main(String[] args){
                 int m=4;
