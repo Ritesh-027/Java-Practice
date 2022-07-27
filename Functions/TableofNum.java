@@ -5,6 +5,7 @@ public class TableofNum {
         System.out.println("Input number is :");
         Scanner scan = new Scanner(System.in);
         int num = scan.nextInt();
+        System.out.println("Table is printed below :");
         table(num);
     }
     
@@ -12,7 +13,7 @@ public class TableofNum {
         int sum = 0;
         for(int i=1; i<=10; i++){
             sum = i * n;
-            System.out.println(sum);
+            System.out.println(n + " * " + i +" = " + sum );
         }
     }
 }
