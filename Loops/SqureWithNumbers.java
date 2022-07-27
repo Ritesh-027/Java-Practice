@@ -1,3 +1,4 @@
+package Loops;
 public class SqureWithNumbers{
     public static void main(String[] args){
     
