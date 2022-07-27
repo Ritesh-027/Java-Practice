@@ -16,7 +16,7 @@ class CheckIfPrime {
   
         return true;
     }
-  
+ 
     public static void main(String args[])
     {
         if (isPrime(11)) // Calling function and printing the result here!
