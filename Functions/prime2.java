@@ -26,7 +26,6 @@ public class prime2 {
                     break;
                 }
             }
-			
             if ( isPrime == true )
                 System.out.println(num);
         }
