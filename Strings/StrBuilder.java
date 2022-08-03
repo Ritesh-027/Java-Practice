@@ -11,7 +11,7 @@ public class StrBuilder {
         StringBuilder sb = new StringBuilder("Ritesh loves shefali ! That's it.");
         System.out.println(sb);
 
-        // Length for sb class.
+        // Getting a length of string.
         System.out.println(sb.length());
 
         //Inserting a new string into the existing string.
