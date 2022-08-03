@@ -1,11 +1,12 @@
+// We cannot modify the string using string in java because its taking a much more timing to done the operation. We need string builder class to modify it and its a very faster.
+//String are immutable!
+//Strings are stored into the heap memory and it 
+
 package Strings;
 
 import java.util.*;
 
 public class Strings {
-    /**
-     * @param args
-     */
     public static void main(String args[]){
         //Declaring a string.
 
