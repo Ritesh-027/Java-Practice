@@ -1,5 +1,5 @@
 package BitManupulation;
-
+//Get-bit mask
 public class BitExmpls {
     public static void main(String args[]){
 
@@ -8,7 +8,7 @@ public class BitExmpls {
         int pos = 3;
         int bitMask = 1<<pos; //-> 1 left shift 2.
 
-        // if both operation result is 0 or 1 then printing the value accordingly.
+        // AND operation and if both operation result is 0 or 1 then printing the value accordingly.
         if((bitMask & n) == 0){
             System.out.println("Bit was zero");
         }else{
