@@ -15,5 +15,6 @@ import java.util.Scanner;
             int bitmask= 1<<pos; //if pos 2 then 0100
             int newNumber = bitmask ^ n; // 0100 ^ 0101 = 0001 -> 1 will be output
             System.out.println(newNumber);
+            
         }
     }
