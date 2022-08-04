@@ -16,8 +16,6 @@ public class countSetBits {
         //return count;
         System.out.println(count);    
     }
-    
- 
     // Calling function in main method.
     public static void main(String args[])
     {
