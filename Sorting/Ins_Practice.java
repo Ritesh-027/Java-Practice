@@ -1,6 +1,6 @@
 public class Ins_Practice {
     public static void main(String args[]){
-        int ary[] = {10,100,1,150,2,200,1000,999,998,997};
+        int ary[] = {5,4,3,2,1,0};
 
         // Sort above array using insertion array.
         int temp,j; // Storing temp value and initialization of second loop.
