@@ -1,5 +1,3 @@
-package Sorting;
-
 public class BubbleSortTech {
     public static void BubbleSort(int ary[]){
         
