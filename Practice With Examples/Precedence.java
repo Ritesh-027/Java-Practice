@@ -1,6 +1,6 @@
 
 public class Precedence{
-    public static void main(String args[]){
+public static void main(String args[]){
 
         // Precedence of Operators.[Bodmass rull will not apply here.] 
         // It's working on Precedence & Associativity.
@@ -13,6 +13,10 @@ public class Precedence{
 
         System.out.println(a);
         System.out.println(b);
+
+        //See the table Precedence and Associativity Table.
+
+         
 
 
 
