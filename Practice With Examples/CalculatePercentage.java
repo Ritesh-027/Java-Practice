@@ -55,7 +55,7 @@ public class CalculatePercentage{
         
         }else if(sum>400 && sum<=500){
         
-            System.out.println("Ecxellent! Keep it up!");
+            System.out.println("Excellent! Keep it up!");
         
         }
     }
