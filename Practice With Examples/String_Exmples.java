@@ -33,5 +33,12 @@ public class String_Exmples{
         String name6 = "Ritesh loves shefali!";
         System.out.println(name6.indent(5));
 
+        //Detecting Single, Double and Triple spaces from the string .
+        String myString = "Ri tesh  loves shefali   !";
+        System.out.println("Single space detected at index no : "+myString.indexOf(" "));
+        System.out.println("Double space detected at index no : "+myString.indexOf("  "));
+        System.out.println("Triple space detected at index no : "+myString.indexOf("   "));
+
+
     }
 }
