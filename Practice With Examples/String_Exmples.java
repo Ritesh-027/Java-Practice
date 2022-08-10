@@ -20,6 +20,18 @@ public class String_Exmples{
         // Replcing a string character.
         String name3 = "Ritesh loves shefali!";
         System.out.println(name3.replace('R', 'H'));
- 
+
+        // // Getting index of letter.
+        // String name4 = "Ritesh loves shefali!";
+        // System.out.println(name4.indexOf("shefali!"));
+
+        //Getting index of character.
+        String name5 = "Ritesh loves shefali!";
+        System.out.println(name5.indexOf('l'));
+
+        //Applaying indentation to the string.
+        String name6 = "Ritesh loves shefali!";
+        System.out.println(name6.indent(5));
+
     }
 }
