@@ -1,3 +1,6 @@
+
+// Strings are immutable so it cannot be changed. Every time it create's a new string for modification.
+
 public class String_Exmples{
     public static void main(String args[]){
 
