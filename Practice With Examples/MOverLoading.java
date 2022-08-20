@@ -7,7 +7,9 @@ class MOverLoading{
 }
 
 // Note - > Object is parent class of all the classes.
+//Compile time polymorphism [Static]
 
+// Method Overloading.
 class Poly{
     //Checikng methods.
     void show(){
